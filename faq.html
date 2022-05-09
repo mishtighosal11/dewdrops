@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>FAQ</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style type="text/css">
+      body{
+        background: #eee;
+        padding-top: 20px;
+        font-family: monospace;
+      }
+      .header{
+        border-radius: 20px 20px 0px 0px;
+        padding: 10px 0px;
+        background: teal;
+        color: #fff;
+        width: 100%;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+      }
+      .faq-item{
+        margin-bottom: 40px;
+        margin-top: 40px;
+      }
+      .faq-body{
+        display: none;
+        margin-top: 30px;
+      }
+      .faq-wrapper{
+        width: 75%;
+        margin: 0 auto;
+      }
+      .faq-inner{
+        padding: 30px;
+        background: aliceblue;
+      }
+      .faq-plus{
+        float: right;
+        font-size: 1.4em;
+        line-height: 1em;
+        cursor: pointer;
+      }
+      hr{
+        background-color: #9b9b9b;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="faq-wrapper">
+          <div class="header">
+            <h1>FAQs</h1>
+          </div>
+          <div class="faq-inner">
+            <div class="faq-item">
+              <h3>
+                Who are the minds behind Dewdrops and Sunlight events ?
+                <span class="faq-plus">&plus;</span>
+              </h3>
+              <div class="faq-body">
+                Dewdrops and Sunlight Events was founded by three ex-Christ University students ,they all love to organize and execute events with perfections 
+                        Misthi Ghosal is the (CEO) and the brain of the company due to her decision making skills this company has reached where it is now.Ankit Ray is the (MD) of the company,he looks after the supply chain management,and keeps track of the work and its completion on time,Last but not the least we have Simran Basu is the Creative Head and (COO)She looks after the events and looks after the customer requirements
+              </div>
+            </div>
+            <hr>
+            <div class="faq-item">
+              <h3>
+                My payment failed ,but got debited from my bank account ?
+                <span class="faq-plus">&plus;</span>
+              </h3>
+              <div class="faq-body">
+                Payments fail due to some bugs in the software,contact our team at D&S@gmail.com and it will be transfered to your bank account in 2 days
+              </div>
+            </div>
+            <hr>
+            <div class="faq-item">
+              <h3>
+                The website is not loading in my device?
+                <span class="faq-plus">&plus;</span>
+              </h3>
+              <div class="faq-body">
+                Kindly Update your Browser,or connect to our technical team at D&S tech @gmail.com
+              </div>
+            </div>
+            <hr>
+            <div class="faq-item">
+              <h3>
+                Want to cancel the booking?
+                <span class="faq-plus">&plus;</span>
+              </h3>
+              <div class="faq-body">
+                Zero cancellation charges if informed 2 weeks prior last moment cancellation are charged
+              </div>
+            </div>
+            <hr>
+            <div class="faq-item">
+              <h3>
+                 Can't login into my account ?
+                <span class="faq-plus">&plus;</span>
+              </h3>
+              <div class="faq-body">
+                Try login in by another method or contact our tech team at D&S tech@gmail.com
+                you will get a response soon from our team cheers !!!!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      $(".faq-plus").on('click',function(){
+        $(this).parent().parent().find('.faq-body').slideToggle();
+      });
+    </script>
+  </body>
+</html>

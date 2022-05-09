@@ -1,0 +1,35 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #effdfd;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cc, .ff, .mp {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+
+#chimg {
+    background-image: url(CHRISTMAS!.png);
+}
+
+.cc, .ff, .mp {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+}

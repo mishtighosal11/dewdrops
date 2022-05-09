@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>BOOKING FORM</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="title">
+      DEWDROPS AND SUNLIGHT EVENTS
+    </div>
+    <form name="booking" method="get" action="reg.php">
+    <div class="form">
+       <div class="inputfield">
+          <label>First Name</label>
+          <input type="text" class="input" name = "firstname">
+       </div>  
+        <div class="inputfield">
+          <label>Last Name</label>
+          <input type="text" class="input" name="lastname">
+       </div>  
+       <div class="inputfield">
+          <label>Address</label>
+          <input type="text" class="input" name="address1">
+       </div>  
+      <div class="inputfield">
+          <label for="date">Date:</label>
+  <input type="date" id="date" name="date">
+  <input type="submit">
+       </div> 
+        <div class="inputfield">
+          <label>Gender</label>
+          <div class="custom_select">
+            <select>
+              <option value="">Select</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+          </div>
+       </div> 
+        <div class="inputfield">
+          <label>Email Address</label>
+          <input type="text" class="input" name="email">
+       </div> 
+      <div class="inputfield">
+          <label>Phone Number</label>
+          <input type="text" class="input" name="phone">
+       </div> 
+      <div class="inputfield">
+          <label>Message for the event planners</label>
+          <input type="text" class="input" name="req">
+       </div> 
+      <div class="inputfield">
+          <label>Postal Code</label>
+          <input type="text" class="input" name="pincode">
+       </div> 
+      <div class="inputfield terms">
+          <label class="check">
+            <input type="checkbox">
+            <span class="checkmark"></span>
+          </label>
+          <p>Agreed to terms and conditions</p>
+       </div> 
+      <div class="inputfield">
+        
+        <input type="submit" value="submit" class="btn">
+        <a href="payments.html">
+          Go to payments
+        </a>
+      </div>
+    </div>
+    </form>
+</div>	
+
+	
+</body>
+</html>
+</html>

@@ -1,0 +1,51 @@
+@font-face {
+    font-family: Callifornia;
+    src: url("Callifornia.otf");
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url("Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat-Bold.ttf);
+    font-weight: bold;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+#otherpage {
+    font-size: 2rem;
+}
+
+.navbar1 {
+    background-color: #119DA4;
+    color: #f0f0f0;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.abtus {
+    border: 1px solid white;
+    list-style-position: inside;
+    padding-left: 3px;
+    padding-top: 1.5px;
+    padding-bottom: 1.5px;
+    padding-right: 3px;
+    border-radius: 25%;
+    /* margin: auto; */
+    /* align-content: center; */
+    margin-bottom: 10px;
+}
+
+.nav1 {
+    /* float: right; */
+    display: flex;
+    /* align-self: flex-end; */
+    margin-bottom: 20px;
+    line-height: 3;
+}
